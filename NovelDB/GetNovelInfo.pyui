@@ -1,0 +1,129 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 0}, {230, 38}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "action" : "SegCntlTap",
+          "flex" : "WR",
+          "segments" : "読中|読了|保留",
+          "frame" : "{{60, 106}, {120, 29}}",
+          "uuid" : "40452D9C-AEE7-48B7-B888-9CEAF2BF3FCE",
+          "class" : "SegmentedControl",
+          "name" : "SegCntl1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{12, 239}, {224, 42}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ButtonTap",
+          "flex" : "W",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "実行",
+          "uuid" : "B4B58B1A-0A11-4351-8674-96F35C52751B",
+          "class" : "Button",
+          "font_bold" : true,
+          "border_color" : "RGBA(0.041667,0.041667,1.000000,1.000000)",
+          "background_color" : "RGBA(0.893258,0.893258,0.893258,1.000000)",
+          "name" : "Button",
+          "font_size" : 32
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 153}, {230, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "label1",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "13750633-BD96-4D5C-BA82-07B1B30DA8CF",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "コメント",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 182}, {230, 37}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "TextField",
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "6C3CA7DA-E907-4654-BE51-A54459487D8C",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{12, 54}, {224, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 18,
+          "frame" : "{{45, 157}, {150, 32}}",
+          "uuid" : "B1B58E09-D252-49D9-92DA-C1EC23C29259",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "評価",
+          "name" : "label2",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 87}, {230, 38}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "name" : "SegCntl2",
+          "frame" : "{{60, 159}, {120, 29}}",
+          "uuid" : "4A76C4AB-DF56-4A82-8F8F-BB0CB033AB3E",
+          "class" : "SegmentedControl",
+          "segments" : "5|4|3|2|1",
+          "flex" : "WLR"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {242, 287}}",
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "小説情報取得",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
